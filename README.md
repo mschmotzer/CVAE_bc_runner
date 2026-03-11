@@ -89,6 +89,6 @@ If the model architecture differs (e.g. different embedding length, number of en
 | `--policy` | Path to the trained policy checkpoint (`.ckpt`) |
 | `--cvae` | Enable CVAE-based action prediction |
 | `--context_length` | Number of past observations used as context |
-| `--velocity_control` | Use velocity control mode (instead of position) |
+| `--velocity_control` | Use velocity control mode with position |
 | `--num_cameras` | Number of cameras used as input |
 | `--data_norm` | Path to directory containing data normalization stats |
